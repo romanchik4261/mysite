@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script defer src="libs/inputmask.min.js"></script>
+    <script defer src="libs/just-validate3.3.3.min.js"></script>
+    <script defer src="dist/main.js"></script>
+  <title>Pati_web_create</title>
+</head>
+<body>
+
+    <header class="header">
+      <div class="container header__wrap">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+        
+          <nav class="navigation">
+            <img class="btn-close" src="img/close.svg" alt="Закрыть">
+            <a href="#portfolio" class="navigation__a">Портфолио</a>
+            <a href="#price" class="navigation__a">Цены</a>
+            <a href="#stage" class="navigation__a">Этапы работы</a>
+            <a href="#footer" class="navigation__a">Контакты</a>
+          </nav>
+
+        <button class="btn-menu"><img src="img/menu.svg" alt="menu"></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <div class="top">
+            <div class="top__content">
+              <h1 class="top__title">Разработка сайтов для бизнеса</h1>
+              <h3 class="top__text">Закроем все боли и потребности целевой аудитории с помощью вкусной подачи вашего продукта.</h3>
+              <a href="#modal" class="top__button">Запишись на бесплатную консультацию</a>
+            </div>
+            <div class="top__img">
+              <img class="top__img" src="img/me.png" alt="my_photo">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__wrap">
+            <div class="benefits__content design">
+              
+              <div class="benefits__text">                
+                <h3 class="benefits__text__title">Уникальный дизайн</h3>
+                <p class="benefits__text__desc">От вас не нужен макет, я сделаю его сама под ваши цели и бизнес-задачи.</p>
+              </div>
+            </div>
+            <div class="benefits__content garant">
+              
+              <div class="benefits__text">
+                <h3 class="benefits__text__title">Гарантия 1 год</h3>
+                <p class="benefits__text__desc">Не брошу после сдачи проекта.
+                  Помогу решить возникшую проблему. Починю, если что-то сломается</p>
+              </div>
+            </div>
+            <div class="benefits__content edit">
+                
+                <div class="benefits__text">
+                  <h3 class="benefits__text__title">Возможность редактирования сайта</h3>
+                  <p class="benefits__text__desc">Вы сами сможете без труда отредактировать свой сайт на случай изменения контента. Расскажу и покажу как это сделать</p>
+                </div>
+            </div> 
+          </div>
+        </div>
+
+      </section>
+
+      <section class="stage" id="stage">
+        <div class="stage__title">
+          <h2 class="stage__title__heading">Этапы работы</h2>
+        </div>
+        <div class="container">
+          <div class="stage__wrap">
+             <div class="stage__list">
+               <img class="stage__list__img" src="img/consult.svg" alt="img_consult">
+               <div class="stage__text">
+                 <h3 class="stage__subtitle">Консультация.</h3>
+                 <p class="stage__desc">Мы с вами заполняем бриф. Прописываем все детали и пожелания. Какие цели и задачи должен выполнять сайт.
+                После разговора составляется смета и в течении часа сообщаю стоимость проекта.</p>
+               </div>
+             </div>
+             <div class="stage__img__right"><img src="img/right.svg" alt="img"></div>
+
+            <div class="stage__list">
+              <img class="stage__list__img" src="img/proto.svg" alt="img_proto">
+              <div class="stage__text">
+                <h3 class="stage__subtitle">Прототип.</h3>
+                <p class="stage__desc">Схематичное расположение элементов(логика)
+                Структура, блоки, текст, кнопки.
+                Предоставляются имеющиеся материалы для работы (ваши фото, текст, портфолио, логотип)
+                У вас появляется понимание какой будет сайт.</p>
+              </div>
+            </div>
+            <div class="stage__img__left"><img src="img/left.svg" alt="img"></div>
+
+            <div class="stage__list">
+              <img class="stage__list__img" src="img/design.svg" alt="img_design">
+              <div class="stage__text">
+                <h3 class="stage__subtitle">Дизайн-макет.</h3>
+                <p class="stage__desc">На этом этапе окончательно утверждается проект.
+                Определяемся с цветом, шрифтами и стилисткой сайта, я делаю первые несколько блоков. Вы смотрите результат, вносим
+                последние изменнения и заканчиваем дизайн-макет.</p>
+              </div>
+            </div>
+            <div class="stage__img__right"><img src="img/right.svg" alt="img"></div>
+
+            <div class="stage__list">
+              <img class="stage__list__img" src="img/create.svg" alt="img_create">
+              <div class="stage__text">
+                <h3 class="stage__subtitle">Разработка.</h3>
+                <p class="stage__desc">Делаем верстку. Навигация по сайту. Адаптив под разные устройства(телефон, планшет, компьютер)</p>
+              </div>
+            </div>
+            <div class="stage__img__left"><img src="img/left.svg" alt="img"></div>
+
+            <div class="stage__list">
+              <img class="stage__list__img" src="img/www.svg" alt="img_www">
+              <div class="stage__text">
+                <h3 class="stage__subtitle">Запуск.</h3>
+                <p class="stage__desc">Подбор, регистрация домена и хостинга.
+                Тестирование, смотрим правильно ли всё работает.
+                Ваш сайт готов!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price" id="price">
+        <div class="stage__title">
+          <h2 class="stage__title__heading">Цены и условия</h2>
+        </div>
+        <div class="container">
+          <div class="price__wrap">
+            <div class="price__wraper">
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Сайт-визитка</summary>
+                  <h4>3 блока от 5 000₽</h4>
+                  <p>Главный блок с оффером. Описание вашего продукта. Контакты</p>
+                </details>
+              </div>
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Одностраничный сайт (лэндинг)</summary>
+                  <h4>5-10 блоков от 10 000₽</h4>
+                  <p>Основные блоки: Главный блок с оффером. Описание вашего продукта. Преимущества. Отзывы. Контакты + любые блоки
+                    вашей тематики</p>
+                </details>
+              </div>
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Многостраничный сайт</summary>
+                  <p>3-6 страниц 25 000₽</p>
+                </details>
+              </div>
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Вёрстка сайта по вашему дизайн-макету</summary>
+                  <h4>от 10 000₽</h4>
+                  <p>Включает в себя все этапы работы, кроме прототипа и дизайн-макета</p>
+                </details>
+              </div>
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Редизайн сайта</summary>
+                  <h4>от 10 000₽</h4>
+                  <p>Создание нового дизайн-макета на основе первоначального сайта и его верстка</p>
+                </details>
+              </div>
+              <div class="price__wrap__list">
+                <img src="img/marker.svg" alt="marker">
+                <details>
+                  <summary>Оформление гайда</summary>
+                  <h4>от 1000₽</h4>
+                  <p>Вы предоставляете все необходимые материалы(текст, фото). Оформленный гайд по всем вашим пожеланиям и стилистике
+                    отдается в формате PDF</p>
+                </details>
+              </div>
+            </div>
+          
+            <div class="price__img">
+              <img src="img/Ellipse.svg" alt="img">
+            </div>
+            <div class="price__text">
+              <h3>Поэтапный порядок оплаты.</h3>
+              <ul>
+                <li>Предоплата 20%</li>
+                <li>Частичная оплата после согласования дизайн-макета 40%</li>
+                <li>Окончательная оплата 40%</li>
+              </ul>
+              
+            </div>
+            <div class="price__img">
+              <img src="img/Ellipse.svg" alt="img">
+            </div>
+            <!-- <div class="price__desc"> -->
+              <p class="price__desc">Разработка сайта занимает от 10 до 50 рабочих дней при условии, если клиент своевременно выходит на связь, предоставляет
+              все необходимые сведения и оперативно согласовывает все вопросы.</p>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="stage__title">
+          <h2 class="stage__title__heading">Портфолио</h2>
+        </div>
+        <div class="container">
+          <div class="portfolio__wrap">
+            <div class="portfolio__wrap__block">
+              <a data-fancybox data-type="pdf" href="pdf/portfolio__internet-magazin.pdf"><img class="rounded" src="img/works_internet_magazin.jpg" alt="portfolio"></a>
+              <!-- <a href="" class="portfolio__button">Посмотреть</a> -->
+            
+            </div>
+
+            <div class="portfolio__wrap__block">
+              <a data-fancybox data-type="pdf" href="pdf/portfolio__sborkapk.pdf"><img class="rounded" src="img/works.jpg"
+                  alt="portfolio"></a>
+              <!-- <a href="" class="portfolio__button">Посмотреть</a> -->
+
+            </div>
+
+            <div class="portfolio__wrap__block">
+              <a data-fancybox data-type="pdf" href="pdf/portfolio__sborkapk.pdf"><img class="rounded" src="img/works_furniture.jpg"
+                  alt="portfolio"></a>
+              <!-- <a href="" class="portfolio__button">Посмотреть</a> -->
+            
+            </div>
+          
+          </div>
+          
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="modal">
+      <div class="stage__title">
+        <h2 class="stage__title__heading">Оставить заявку</h2>
+      </div>
+      <div class="container">
+        <div class="modal__wrap">
+          
+          <form action="#" class="form" method="POST" enctype="multipart/form-data">
+            
+            <div class="form__input">
+              <h3>Оставьте контакты, и я с вами свяжусь, чтобы обсудить проект</h3>
+              <label class="form__label" for="name">Имя</label>
+              <input class="input input-name" id="name" type="text" data-validate-field="name" name="Имя" required>
+              
+              <label class="form__label" for="email">Электронная почта</label>
+              <input class="input input-mail" id="email" type="email" data-validate-field="email" name="Email" 
+              required>
+              
+              <label class="form__label" for="tel">Телефон</label>
+              <input class="input input-tel" id="tel" type="tel" data-validate-field="tel" name="Телефон" 
+              required>
+
+              <label class="form__label" for="tel">Способ связи</label>
+              <select id="messenger" class="input">
+                <!-- <option value="phone">Мобильный телефон</option> -->
+                <option value="telegram">Telegram</option>
+                <option value="watsap">Whatsapp</option>
+                <option value="viber">Viber</option>
+              </select>
+              
+              
+              <!-- <label class="form__label">
+                <textarea class="textarea" name="Сообщение" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+              </label>
+              <input class="input" type="file" name="file[]" multiple id="myfile"> -->
+            </div>
+            <div class="modal__button">
+              <img src="img/myphoto2.png" alt="myphoto2">
+              <button class="top__button button">Записаться на бесплатную
+              консультацию</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer" id="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="footer__contact">
+            <h4>8951-665-06-15</h4>
+            <div class="footer__social">
+              <a href=""><img src="img/telegram.svg" alt=""></a>
+              <a href=""><img src="img/instagram.svg" alt=""></a>
+              <a href=""><img src="img/vk.svg" alt=""></a>
+            </div>
+            <h4>Pati_web_create@mail.ru</h4>
+          </div>
+          <div class="footer__political">
+            <p>© 2022 Pati_web_create</p>
+            <a href="">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </footer>
+</body>
+</html>

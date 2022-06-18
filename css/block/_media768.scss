@@ -1,0 +1,159 @@
+@media (max-width: 768px) {
+  body {
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    
+    h3 {
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.04em;
+    }
+    
+    h4 {
+      font-size: 15px;
+    }
+
+    .header__wrap {
+      padding-bottom: 20px;
+      padding-top: 20px;
+      position: relative;
+
+      .logo {
+        max-width: 60%;
+      }
+
+      .navigation {
+        display: none;
+        flex-direction: column;
+        background: #ffa3da3d;
+        text-align: center;
+        border-radius: 10px;
+        padding-top: 10px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+
+        &__a:not(:last-child) {
+          margin-right: 0px;
+        }
+
+        &__a {
+          line-height: 15px;
+          padding: 10px 30px 10px 20px;
+        }
+      }
+
+      & button {
+        display: flex;
+      }
+
+      .btn-close {
+        display: flex;
+        margin-left: 115px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+        position: absolute;
+      }
+    }
+
+    .intro {
+
+      .top {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        &__img {
+            max-width: 100%;
+            padding-top: 0;
+          }
+        
+          &__content {
+            max-width: 70%;
+            padding-top: 30px;
+        
+            h1 {
+              max-width: 75%;
+              font-size: 28px;
+              letter-spacing: 0.02em;
+              padding-top: 0;
+              padding-bottom: 30px;
+              line-height: 32px;
+            }
+        
+            .top__text {
+              font-size: 14px;
+              line-height: 20px;
+              margin-bottom: 30px;
+            }
+
+            a {
+              width: 200px;
+              font-size: 13px;
+              padding: 12px 12px;
+            }
+          }
+      }
+
+      
+
+    }
+
+    .benefits {
+      &__wrap {
+        padding-top: 50px;
+
+        .benefits__content {
+            padding: 100px 50px;
+          }
+      }
+    }
+
+    .stage {
+      &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .stage__list {
+          display: flex;
+          justify-content: center;
+
+          img {
+            max-width: 50px;
+          }
+        }
+
+        .stage__list:not(:last-child) {
+          margin-bottom: 40px;
+        }
+
+        .stage__img__right {
+          display: none;
+        }
+
+        .stage__img__left {
+          display: none;
+        }
+
+        .stage__text {
+          max-width: 60%;
+        }
+      }
+    }
+
+  
+  }
+
+    
+
+}

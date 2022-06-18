@@ -1,0 +1,110 @@
+.modal {
+  background: $color;
+  padding-bottom: 150px;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px;
+
+    background: linear-gradient(180deg, rgba(255, 68, 180, 0.055) 0%, rgba(255, 68, 180, 0.5) 100%);
+    box-shadow: 12px 12px 40px rgba(125, 225, 231, 0.42);
+    border-radius: 9px;
+    margin-top: 80px;
+    
+
+    & .form {
+      font-size: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 50px;
+
+      &__input {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        & h3 {
+          text-align: left;
+          padding-bottom: 25px;
+        }
+
+        & h5 {
+          max-width: 550px;
+          padding-bottom: 40px;
+        }
+
+        & label {
+          display: flex;
+          flex-direction: column;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          letter-spacing: 0.04em;
+          color: rgba(255, 255, 255, 0.97);
+        }
+
+        & input {
+          background: rgba(208, 112, 170, 0.3);
+          border-radius: 5px;
+          padding: 15px 15px;
+          font-size: 18px;
+          letter-spacing: 0.04em;
+          color: #e7e7e7f1;
+          font-family: 'PT Sans', sans-serif;
+        }
+
+        & select {
+          background: rgba(208, 112, 170, 0.3);
+          border-radius: 5px;
+          padding: 15px 15px;
+          font-size: 18px;
+          color: #e7e7e7f1;
+          font-family: 'PT Sans', sans-serif;
+        }
+
+        & option {
+          background: rgba(26, 13, 19, 0.98);
+        }
+
+        & input:not(:last-child) {
+          margin-bottom: 25px;
+        }
+      }
+
+      .modal__button {
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 90px;
+
+      & button {
+        max-width: 100%;
+        background: rgba(26, 13, 19, 0.98);
+        box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.44);
+        border-radius: 9px;
+        padding: 16px 24px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        border: none;
+        color: #FFA3DA;
+      }
+
+      & img {
+        max-width: 100%;
+      }
+      }
+    }
+  }
+
+   
+}

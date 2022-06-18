@@ -1,0 +1,97 @@
+@media (max-width: 1024px) {
+  body {
+    .header__wrap {
+        .logo {
+          max-width: 70%;
+        }
+      }
+    
+      .intro {
+    
+        h1 {
+          font-size: 38px;
+        }
+    
+        .top__img {
+          padding-top: 15px;
+        }
+    
+        .top__text {
+          font-size: 15px;
+        }
+      }
+    
+      .benefits {
+        .benefits__content {
+          padding: 130px 50px;
+        }
+      }
+    
+      .stage {
+        &__wrap {
+          .stage__list {
+            img {
+              max-width: 60px;
+            }
+          }
+    
+          .stage__text {
+            max-width: 50%;
+          }
+    
+          .stage__img__right {
+            padding: 35px 200px 35px 0;
+          }
+    
+          .stage__img__left {
+            padding: 35px 0 35px 200px;
+          }
+        }
+      }
+    
+      .modal {
+        & .form {
+          padding: 40px;
+    
+          & img {
+            max-width: 60%;
+          }
+    
+          &__input {
+            & h3 {
+              font-size: 18px;
+            }
+    
+            & label {
+              font-size: 15px;
+            }
+    
+            & input {
+              font-size: 15px;
+              padding: 10px 10px;
+            }
+    
+            & select {
+              font-size: 15px;
+              padding: 10px 10px;
+            }
+          }
+    
+          .modal__button {
+            max-width: 50%;
+            padding-left: 40px;
+    
+            // img {
+            //   max-width: 90%;
+            // }
+    
+            & button {
+              padding: 14px 14px;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+  }
+    
+}

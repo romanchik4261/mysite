@@ -1,0 +1,164 @@
+.benefits {
+  background: $color;
+
+  &__wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    // grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    // gap: 0px;
+    // height: 100%;
+
+      .benefits__content {
+        max-width: 100%;
+        height: 100%;
+        padding: 150px 100px;
+
+        background-image: url(/img/Ellipse_benefit.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+      .benefits__text {
+        margin: 0 auto;
+        max-width: 60%;
+        text-align: center;
+        align-items: center;
+        color: $color;
+
+        & h3 {
+          text-align: center;
+          align-items: center;
+          font-weight: 700;
+        }
+
+        & p {
+          text-align: center;
+        }
+      }
+    }
+        // .design {
+        //   background-image: url(/img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //   background-position: center;
+        //   background-repeat: no-repeat;
+        //   // height: 100%;
+        // }
+
+        // .garant {
+        //   background-image: url(/img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //     background-position: center;
+        //     background-repeat: no-repeat;
+        // }
+
+        // .edit {
+        //   background-image: url(/img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //     background-position: center;
+        //     background-repeat: no-repeat;
+        // }
+  }
+}    
+
+        // #item-0 {
+        //   background-image: url(..//img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //   background-position: center;
+        //   background-repeat: no-repeat;
+        //   height: 100%;
+    
+        //   grid-row-start: 1;
+        //   grid-column-start: 2;
+        //   grid-row-end: 3;
+        //   grid-column-end: 5;
+          
+        // }
+    
+        // #item-1 {
+        //   background-image: url(..//img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //   background-position: center;
+        //   background-repeat: no-repeat;
+        //   height: 100%;
+    
+        //   grid-row-start: 4;
+        //   grid-column-start: 2;
+        //   grid-row-end: 6;
+        //   grid-column-end: 5;
+        // }
+    
+        // #item-2 {
+        //   background-image: url(..//img/Ellipse_benefit.png);
+        //   background-size: 100%;
+        //   background-position: center;
+        //   background-repeat: no-repeat;
+        //   height: 100%;
+    
+        //   grid-row-start: 7;
+        //   grid-column-start: 2;
+        //   grid-row-end: 9;
+        //   grid-column-end: 5;
+        // }
+  
+    
+
+  // &__content {
+  //   
+    
+  //   // display: inline-block;
+    
+  //   // color: $color;
+    
+  //   .benefits__text {
+  //     position: absolute;
+  //     max-width: 33%;
+      
+  //   }
+    // img {
+    //   width: 100%;
+    //   height: 100%;
+    // }
+
+  // // &__content img {
+  // //   max-width: 70%;
+  // // }
+
+  //   &__content img {
+  //     max-width: 70%;
+  //   }
+
+  //   .left {
+  //     display: flex;
+  //     justify-content: flex-start;
+  //   }
+
+  //   .center {
+  //     display: flex;
+  //     justify-content: center;
+  //   }
+
+  //   .right {
+  //     display: flex;
+  //     justify-content: flex-end;
+  //   }
+
+  //   .text__left {
+  //     top: 100px;
+  //     left: 150px;
+  //     // margin: 100px 0 0 150px;
+  //   }
+
+  //   .text__center {
+  //     top: 100px;
+  //   }
+
+  
+  
+  
+
+  

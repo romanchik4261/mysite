@@ -1,0 +1,69 @@
+.stage {
+  background: $color;
+
+  &__title {
+    background: linear-gradient(180deg, rgba(255, 0, 153, 0) 25%, #FF19A4 55%, #FF19A4 60%, rgba(255, 0, 154, 0) 85%);
+  }
+
+  &__title__heading {
+    font-weight: 700;
+    line-height: 67px;
+    color: $color;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    
+  }
+
+  &__wrap {
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+
+  &__subtitle {
+    text-align: left;
+  }
+  
+  &__desc {
+    text-align: left;
+  }
+
+
+  &__list {
+    display: flex;
+  }
+
+  &__list:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__list:nth-child(7) {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__text {
+    max-width: 35%;
+    padding-left: 30px;
+
+    & h3 {
+      padding-bottom: 10px;
+    }
+  }
+  &__list__img {
+    max-width: 20%;
+  }
+
+  &__img__right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 75px 200px 75px 0;
+  }
+
+  &__img__left {
+    display: flex;
+    justify-content: flex-start;
+    padding: 75px 0 75px 200px;
+  }
+}

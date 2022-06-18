@@ -1,0 +1,23 @@
+<svg width="99" height="101" viewBox="0 0 129 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_110_170)" filter="url(#filter0_f_110_170)">
+<path d="M106.29 81.8898C103.067 90.5015 97.3549 97.912 89.9101 103.14C82.4654 108.368 73.639 111.168 64.5993 111.168C55.5597 111.168 46.7333 108.368 39.2885 103.14C31.8438 97.912 26.1319 90.5015 22.9091 81.8898" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.9091 49.3899C26.1319 40.7782 31.8438 33.3677 39.2885 28.1395C46.7333 22.9112 55.5597 20.1118 64.5993 20.1118C73.639 20.1118 82.4654 22.9112 89.9101 28.1395C97.3549 33.3677 103.067 40.7782 106.29 49.3899" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.9091 49.39H106.29" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.9091 81.8898H106.29" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.6021 59.14L19.9767 72.14L26.3514 59.14L32.726 72.14L39.1007 59.14" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.85 59.14L58.2246 72.14L64.5993 59.14L70.974 72.14L77.3486 59.14" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.098 59.14L96.4727 72.14L102.847 59.14L109.222 72.14L115.597 59.14" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M81.6834 49.39C78.8849 38.1595 72.9502 27.9986 64.5993 20.14C56.2947 27.947 50.3835 38.038 47.579 49.195" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.5154 81.8898C50.3139 93.1202 56.2486 103.281 64.5995 111.14C72.9503 103.281 78.8851 93.1202 81.6836 81.8898" stroke="#7DE1E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_f_110_170" x="-1.14734" y="-1.36011" width="131.493" height="134" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur_110_170"/>
+</filter>
+<clipPath id="clip0_110_170">
+<rect width="127.493" height="130" fill="white" transform="translate(0.852661 0.639893)"/>
+</clipPath>
+</defs>
+</svg>

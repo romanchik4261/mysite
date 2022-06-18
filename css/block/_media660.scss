@@ -1,0 +1,54 @@
+@media (max-width: 660px) {
+  body {
+    .intro {
+      .top {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    
+          &__content {
+            max-width: 100%;
+    
+            h1 {
+              max-width: 70%;
+            }
+          }
+
+          &__button {
+            margin-bottom: 30px;
+          }
+      }
+    }
+
+    .modal {
+      .modal__wrap {
+          .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      
+            &__input {
+              max-width: 100%;
+      
+              & h3 {
+                max-width: 70%;
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 0 auto;
+      
+              }
+            }
+          }
+      
+          .modal__button {
+            max-width: 75%;
+            padding: 25px 0px 0px 0px;
+          }
+        }
+    }
+  }
+}

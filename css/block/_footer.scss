@@ -1,5 +1,5 @@
 .footer {
-  background: $color;
+  background: $colorBlack;
 
   &-background {
     background: linear-gradient(0deg, #7DE1E7 0%, rgba(125, 225, 231, 0) 100%);
@@ -14,12 +14,6 @@
       display: flex;
       align-items: center;
       color: rgba(0, 0, 0, 0.97);
-    }
-
-    & h4 {
-      padding: 0;
-      color: rgba(0, 0, 0, 0.97);
-      font-weight: 400;
     }
   }
 
@@ -36,9 +30,9 @@
 
     & a {
       font-weight: 400;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 20px;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.02em;
       color: rgba(0, 0, 0, 0.5);
     }
     

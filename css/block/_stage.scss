@@ -1,5 +1,5 @@
 .stage {
-  background: $color;
+  background: $colorBlack;
 
   &__title {
     background: linear-gradient(180deg, rgba(255, 0, 153, 0) 25%, #FF19A4 55%, #FF19A4 60%, rgba(255, 0, 154, 0) 85%);
@@ -8,7 +8,7 @@
   &__title__heading {
     font-weight: 700;
     line-height: 67px;
-    color: $color;
+    color: $colorBlack;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -31,6 +31,10 @@
 
   &__list {
     display: flex;
+
+    img {
+      max-width: 10%;
+    }
   }
 
   &__list:nth-child(3) {
@@ -50,9 +54,6 @@
     & h3 {
       padding-bottom: 10px;
     }
-  }
-  &__list__img {
-    max-width: 20%;
   }
 
   &__img__right {

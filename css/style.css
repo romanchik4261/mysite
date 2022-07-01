@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url(d:\КУРС\my_site\css\module\normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .header {
   background: white;
@@ -13,13 +15,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-bottom: 100px;
 }
 
 .header__wrap .logo {
-  max-width: 80%;
+  max-width: 30%;
 }
 
 .header__wrap button {
@@ -38,12 +38,11 @@
 }
 
 .header__wrap .navigation__a {
-  color: #000000;
+  color: #060405;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .header__wrap .navigation__a:not(:last-child) {
@@ -51,8 +50,8 @@
 }
 
 .intro {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #000000), color-stop(70%, rgba(255, 0, 154, 0.8)), to(#FFFFFF));
-  background: linear-gradient(0deg, #000000 5%, rgba(255, 0, 154, 0.8) 70%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #060405), color-stop(70%, rgba(255, 0, 154, 0.8)), to(#FFFFFF));
+  background: linear-gradient(0deg, #060405 5%, rgba(255, 0, 154, 0.8) 70%, #FFFFFF 100%);
 }
 
 .intro .top {
@@ -78,19 +77,22 @@
           align-items: center;
 }
 
+.intro .top__content h1 {
+  max-width: 75%;
+}
+
 .intro .top__content a {
-  width: 250px;
+  max-width: 45%;
   background: rgba(26, 13, 19, 0.98);
   -webkit-box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.44);
           box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.44);
   border-radius: 9px;
-  padding: 16px 24px;
+  padding: 15px 18px;
   font-weight: 400;
   font-size: 15px;
-  line-height: 19px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   border: none;
 }
 
@@ -99,15 +101,15 @@
 }
 
 .intro .top__text {
-  color: #000000;
+  color: #060405;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 26px;
   text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   margin-bottom: 35px;
   max-width: 70%;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .intro .top__img {
@@ -116,7 +118,7 @@
 }
 
 .benefits {
-  background: #000000;
+  background: #060405;
 }
 
 .benefits__wrap {
@@ -139,9 +141,9 @@
 .benefits__wrap .benefits__content {
   max-width: 100%;
   height: 100%;
-  padding: 150px 100px;
+  padding: 120px 100px;
   background-image: url(/img/Ellipse_benefit.png);
-  background-size: 100%;
+  background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -153,7 +155,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #000000;
+  color: #060405;
 }
 
 .benefits__wrap .benefits__content .benefits__text h3 {
@@ -169,7 +171,7 @@
 }
 
 .stage {
-  background: #000000;
+  background: #060405;
 }
 
 .stage__title {
@@ -180,7 +182,7 @@
 .stage__title__heading {
   font-weight: 700;
   line-height: 67px;
-  color: #000000;
+  color: #060405;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 70px;
@@ -203,6 +205,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.stage__list img {
+  max-width: 10%;
 }
 
 .stage__list:nth-child(3) {
@@ -230,10 +236,6 @@
 
 .stage__text h3 {
   padding-bottom: 10px;
-}
-
-.stage__list__img {
-  max-width: 20%;
 }
 
 .stage__img__right {
@@ -265,7 +267,7 @@ summary {
 }
 
 .price {
-  background: #000000;
+  background: #060405;
 }
 
 .price__wrap {
@@ -285,6 +287,10 @@ summary {
   max-width: 700px;
 }
 
+.price__wrap__list:not(:last-child) {
+  padding-bottom: 30px;
+}
+
 .price__wrap__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,7 +301,6 @@ summary {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  padding-bottom: 30px;
 }
 
 .price__wrap__list p {
@@ -306,11 +311,22 @@ summary {
 
 .price__wrap__list details {
   font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.04em;
 }
 
 .price__wrap__list details summary {
   cursor: pointer;
   margin-left: 30px;
+}
+
+.price__wrap__list details h4 {
+  font-size: 14px;
+}
+
+.price__wrap__list .open {
+  padding-left: 10px;
 }
 
 .price__text {
@@ -331,7 +347,7 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 70px 0;
+  margin: 50px 0;
 }
 
 .price .price__desc {
@@ -347,7 +363,7 @@ summary {
 }
 
 .portfolio {
-  background: #000000;
+  background: #060405;
 }
 
 .portfolio__wrap {
@@ -362,12 +378,6 @@ summary {
   padding-bottom: 50px;
 }
 
-.portfolio__wrap img {
-  max-width: 500px;
-  -webkit-box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
-          box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
-}
-
 .portfolio__wrap .portfolio__wrap__block:not(:last-child) {
   padding-bottom: 45px;
 }
@@ -379,6 +389,25 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio__wrap .portfolio__wrap__block a img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 80%;
+  -webkit-box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
+          box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
 }
 
 .portfolio__wrap .portfolio__button {
@@ -387,7 +416,7 @@ summary {
           box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
   border-radius: 9px;
   padding: 8px 30px;
-  color: #000000;
+  color: #060405;
   font-weight: 520;
   font-size: 24px;
   line-height: 41px;
@@ -395,7 +424,7 @@ summary {
 }
 
 .modal {
-  background: #000000;
+  background: #060405;
   padding-bottom: 150px;
 }
 
@@ -467,8 +496,8 @@ summary {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.97);
+  letter-spacing: 0.02em;
+  color: #e4e4e4b5;
 }
 
 .modal__wrap .form__input input {
@@ -476,8 +505,8 @@ summary {
   border-radius: 5px;
   padding: 15px 15px;
   font-size: 18px;
-  letter-spacing: 0.04em;
-  color: #e7e7e7f1;
+  letter-spacing: 0.02em;
+  color: #e4e4e4b5;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -486,7 +515,7 @@ summary {
   border-radius: 5px;
   padding: 15px 15px;
   font-size: 18px;
-  color: #e7e7e7f1;
+  color: #e4e4e4b5;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -510,32 +539,32 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 90px;
+  padding-left: 50px;
 }
 
 .modal__wrap .form .modal__button button {
-  max-width: 100%;
+  max-width: 60%;
   background: rgba(26, 13, 19, 0.98);
   -webkit-box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.44);
           box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.44);
   border-radius: 9px;
-  padding: 16px 24px;
+  padding: 15px 18px;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   border: none;
   color: #FFA3DA;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .modal__wrap .form .modal__button img {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 .footer {
-  background: #000000;
+  background: #060405;
 }
 
 .footer-background {
@@ -563,12 +592,6 @@ summary {
   color: rgba(0, 0, 0, 0.97);
 }
 
-.footer__contact h4 {
-  padding: 0;
-  color: rgba(0, 0, 0, 0.97);
-  font-weight: 400;
-}
-
 .footer__political {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -591,37 +614,32 @@ summary {
 
 .footer__political a {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   color: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
   body p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 18px;
     letter-spacing: 0.01em;
   }
   body h2 {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 30px;
   }
   body h3 {
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
   }
   body h4 {
-    font-size: 15px;
+    font-size: 14px;
   }
   body .header__wrap {
-    padding-bottom: 20px;
-    padding-top: 20px;
     position: relative;
-  }
-  body .header__wrap .logo {
-    max-width: 60%;
   }
   body .header__wrap .navigation {
     display: none;
@@ -629,7 +647,7 @@ summary {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background: #ffa3da3d;
+    background: #ffdaf0;
     text-align: center;
     border-radius: 10px;
     padding-top: 10px;
@@ -677,28 +695,28 @@ summary {
     padding-top: 30px;
   }
   body .intro .top__content h1 {
-    max-width: 75%;
+    max-width: 90%;
     font-size: 28px;
     letter-spacing: 0.02em;
     padding-top: 0;
-    padding-bottom: 30px;
-    line-height: 32px;
+    line-height: 38px;
   }
   body .intro .top__content .top__text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    text-align: center;
   }
   body .intro .top__content a {
-    width: 200px;
-    font-size: 13px;
+    max-width: 50%;
     padding: 12px 12px;
   }
-  body .benefits__wrap {
-    padding-top: 50px;
-  }
   body .benefits__wrap .benefits__content {
-    padding: 100px 50px;
+    padding: 85px 70px;
+    background-size: 80%;
+  }
+  body .benefits__wrap .benefits__content .benefits__text {
+    max-width: 70%;
   }
   body .stage__wrap {
     display: -webkit-box;
@@ -711,6 +729,8 @@ summary {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 0;
   }
   body .stage__wrap .stage__list {
     display: -webkit-box;
@@ -719,9 +739,6 @@ summary {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  body .stage__wrap .stage__list img {
-    max-width: 50px;
   }
   body .stage__wrap .stage__list:not(:last-child) {
     margin-bottom: 40px;
@@ -735,26 +752,72 @@ summary {
   body .stage__wrap .stage__text {
     max-width: 60%;
   }
+  body .price__wrap {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  body .price__wrap .price__img img {
+    max-width: 80%;
+    margin: 0px auto;
+  }
+  body .price__wrap .price__wrap__list details summary {
+    margin-left: 30px;
+  }
+  body .price__wrap .price__wrap__list img {
+    max-width: 60px;
+  }
+  body .portfolio__wrap {
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+  body .modal {
+    padding-bottom: 50px;
+  }
+  body .modal__wrap {
+    margin-top: 10px;
+  }
+  body .modal__wrap .form {
+    padding: 20px;
+  }
+  body .modal__wrap .form .modal__button {
+    max-width: 60%;
+    padding-left: 30px;
+  }
+  body .modal__wrap .form .modal__button img {
+    max-width: 90%;
+  }
+  body .modal__wrap .form .modal__button button {
+    max-width: 80%;
+  }
+  body .footer__contact {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
-  body .header__wrap .logo {
-    max-width: 70%;
-  }
-  body .intro h1 {
-    font-size: 38px;
+  body .intro .top__content h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+    max-width: 80%;
+    line-height: 45px;
   }
   body .intro .top__img {
     padding-top: 15px;
   }
   body .intro .top__text {
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 80%;
   }
-  body .benefits .benefits__content {
-    padding: 130px 50px;
+  body .intro .top__content a {
+    max-width: 60%;
+    padding: 16px 20px;
+  }
+  body .benefits__wrap {
+    padding-top: 50px;
   }
   body .stage__wrap .stage__list img {
-    max-width: 60px;
+    max-width: 8%;
   }
   body .stage__wrap .stage__text {
     max-width: 50%;
@@ -768,8 +831,8 @@ summary {
   body .modal .form {
     padding: 40px;
   }
-  body .modal .form img {
-    max-width: 60%;
+  body .modal .form__input {
+    max-width: 50%;
   }
   body .modal .form__input h3 {
     font-size: 18px;
@@ -785,19 +848,26 @@ summary {
     font-size: 15px;
     padding: 10px 10px;
   }
+  body .modal .form__input input:not(:last-child) {
+    margin-bottom: 15px;
+  }
   body .modal .form .modal__button {
     max-width: 50%;
     padding-left: 40px;
   }
+  body .modal .form .modal__button img {
+    max-width: 70%;
+  }
   body .modal .form .modal__button button {
+    max-width: 70%;
     padding: 14px 14px;
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 1140px) {
   .intro h1 {
-    max-width: 90%;
+    font-size: 38px;
   }
 }
 
@@ -817,14 +887,31 @@ summary {
         -ms-flex-align: center;
             align-items: center;
   }
+  body .intro .top__img {
+    padding-top: 0px;
+  }
   body .intro .top__content {
     max-width: 100%;
   }
   body .intro .top__content h1 {
-    max-width: 70%;
+    max-width: 60%;
+  }
+  body .intro .top__content .top__text {
+    max-width: 55%;
+    text-align: center;
+  }
+  body .intro .top__content a {
+    max-width: 40%;
   }
   body .intro .top__button {
     margin-bottom: 30px;
+  }
+  body .stage__wrap .stage__text {
+    max-width: 85%;
+    padding-left: 15px;
+  }
+  body .stage__wrap .stage__list img {
+    max-width: 12%;
   }
   body .modal .modal__wrap .form {
     display: -webkit-box;
@@ -840,12 +927,13 @@ summary {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 20px 20px;
   }
   body .modal .modal__wrap .form__input {
     max-width: 100%;
   }
   body .modal .modal__wrap .form__input h3 {
-    max-width: 70%;
+    max-width: 100%;
     display: block;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -859,6 +947,69 @@ summary {
   body .modal .modal__wrap .modal__button {
     max-width: 75%;
     padding: 25px 0px 0px 0px;
+  }
+  body .modal .modal__wrap img {
+    max-width: 80%;
+  }
+  body .footer img {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  body .intro .top__content .top__title {
+    max-width: 90%;
+  }
+  body .intro .top__content .top__text {
+    max-width: 90%;
+  }
+  body .intro .top a {
+    max-width: 50%;
+  }
+  body .benefits__wrap .benefits__content {
+    padding: 60px 15px;
+    background-size: 110%;
+  }
+  body .benefits__wrap .benefits__content .benefits__text {
+    max-width: 90%;
+  }
+  body .price__wrap .price__img {
+    margin: 20px 0;
+  }
+  body .price__wrap .price__img img {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  body .price__wrap .price__wrap__list img {
+    max-width: 40px;
+  }
+  body .footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .footer__contact .footer__social {
+    padding: 15px 0 15px 0;
+  }
+  body .footer__political {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 35px;
   }
 }
 
@@ -891,14 +1042,14 @@ h6 {
 
 h1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 58px;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 0.04em;
-  color: #000000;
+  letter-spacing: 0.03em;
+  color: #060405;
   padding-top: 20px;
   padding-bottom: 35px;
   max-width: 85%;
@@ -908,7 +1059,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -923,7 +1074,7 @@ h3 {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 h4 {
@@ -932,6 +1083,12 @@ h4 {
   padding-left: 30px;
   padding-top: 20px;
   color: rgba(255, 255, 255, 0.547);
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.97);
 }
 
 a {

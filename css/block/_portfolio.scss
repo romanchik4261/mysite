@@ -1,5 +1,5 @@
 .portfolio {
-  background: $color;
+  background: $colorBlack;
 
   &__wrap {
     display: flex;
@@ -7,10 +7,10 @@
     margin-top: 80px;
     padding-bottom: 50px;
 
-    & img {
-      max-width: 500px;
-      box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
-    }
+    // & img {
+    //   max-width: 500px;
+    //   box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
+    // }
 
     .portfolio__wrap__block:not(:last-child) {
       padding-bottom: 45px;
@@ -19,6 +19,17 @@
     .portfolio__wrap__block {
       display: flex;
       justify-content: center;
+      align-items: center;
+      
+    }
+
+    .portfolio__wrap__block a img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 80%;
+      box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
     }
 
     .portfolio__button {
@@ -26,7 +37,7 @@
       box-shadow: 6px 6px 30px rgba(125, 225, 231, 0.42);
       border-radius: 9px;
       padding: 8px 30px;
-      color: $color; //#e7e7e7f1
+      color: $colorBlack; //#e7e7e7f1
       font-weight: 520;
       font-size: 24px;
       line-height: 41px;

@@ -1,37 +1,43 @@
 @media (max-width: 1024px) {
   body {
-    .header__wrap {
-        .logo {
-          max-width: 70%;
-        }
-      }
+        
+    .intro {
     
-      .intro {
-    
-        h1 {
-          font-size: 38px;
+        .top__content h1 {
+          font-size: 35px;
+          padding-bottom: 25px;
+          max-width: 80%;
+          line-height: 45px;
         }
     
         .top__img {
           padding-top: 15px;
         }
-    
+
         .top__text {
-          font-size: 15px;
+          font-size: 18px;
+          margin-bottom: 20px;
+          max-width: 80%;
         }
-      }
-    
-      .benefits {
-        .benefits__content {
-          padding: 130px 50px;
+
+        .top__content a {
+          max-width: 60%;
+          padding: 16px 20px;
         }
-      }
+    }
     
-      .stage {
+    .benefits {
+      &__wrap {
+        padding-top: 50px;
+      }
+        
+    }
+    
+    .stage {
         &__wrap {
           .stage__list {
             img {
-              max-width: 60px;
+              max-width: 8%;
             }
           }
     
@@ -47,17 +53,15 @@
             padding: 35px 0 35px 200px;
           }
         }
-      }
+    }
     
-      .modal {
+    .modal {
         & .form {
           padding: 40px;
     
-          & img {
-            max-width: 60%;
-          }
-    
           &__input {
+            max-width: 50%;
+
             & h3 {
               font-size: 18px;
             }
@@ -75,23 +79,28 @@
               font-size: 15px;
               padding: 10px 10px;
             }
+
+            & input:not(:last-child) {
+              margin-bottom: 15px;
+            }
           }
     
           .modal__button {
             max-width: 50%;
             padding-left: 40px;
     
-            // img {
-            //   max-width: 90%;
-            // }
+            img {
+              max-width: 70%;
+            }
     
             & button {
+              max-width: 70%;
               padding: 14px 14px;
-              font-size: 13px;
+              font-size: 15px;
             }
           }
         }
-      }
+    }
   }
     
 }

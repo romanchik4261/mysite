@@ -8,7 +8,7 @@ summary {
 }
 
 .price {
-  background: $color;
+  background: $colorBlack;
 
   &__wrap {
     padding-top: 80px;
@@ -23,11 +23,14 @@ summary {
     
   }
 
+  &__wrap__list:not(:last-child) {
+    padding-bottom: 30px;
+  }
+
   &__wrap__list {
     display: flex;
     align-items: center;
     justify-content: left; 
-    padding-bottom: 30px;
 
     & p {
       padding-left: 30px;
@@ -37,11 +40,23 @@ summary {
 
     & details {
       font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: 0.04em;
     
       & summary {
         cursor: pointer;
         margin-left: 30px;
       }
+
+      & h4 {
+        font-size: 14px;
+        // font-weight: 400;
+      }
+    }
+
+    .open {
+      padding-left: 10px;
     }
   }
 
@@ -55,7 +70,7 @@ summary {
 
   &__img {
     @include block-center;
-    margin: 70px 0;
+    margin: 50px 0;
   }
 
   .price__desc {

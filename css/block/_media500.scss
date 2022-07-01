@@ -1,0 +1,74 @@
+@media (max-width: 500px) {
+  body {  
+    .intro {
+      .top {
+
+        &__content {
+
+          .top__title {
+            max-width: 90%;
+          }
+
+          .top__text {
+            max-width: 90%;
+          }
+
+        }
+        a {
+          max-width: 50%;
+        }
+      }
+    }
+
+    .benefits {
+      &__wrap {
+        .benefits__content {
+          padding: 60px 15px;
+          background-size: 110%;
+    
+          .benefits__text {
+            max-width: 90%;
+          }
+          }
+      }
+    }
+
+    .price {
+      &__wrap {
+        .price__img {
+          margin: 20px 0;
+          img {
+              max-width: 90%;
+              margin: 20px auto;
+            }
+        }
+  
+        .price__wrap__list img {
+          max-width: 40px;
+        }
+      }
+  
+    }
+
+    .footer {
+      &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .footer__social {
+          padding: 15px 0 15px 0;
+        }
+      }
+
+      &__political {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+      }
+    }
+  }
+
+    
+}
